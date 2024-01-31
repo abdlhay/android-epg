@@ -9,6 +9,9 @@ In this fork, the following improvements have been made:
 - Updated the Gradle version and dependencies to their latest stable versions.
 - Converted the original Java codebase to Kotlin for better interoperability and modern language features.
 
+## TODO
+
+- [ ] leanback support for Android TV
 
 # Electronic Program Guide for Android
 
