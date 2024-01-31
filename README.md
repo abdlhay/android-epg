@@ -29,31 +29,22 @@ Then by code adding a click listener...
 
 ```kotlin
 epg.setEPGClickListener(object : EPGClickListener {
-            override fun onChannelClicked(channelPosition: Int, epgChannel: EPGChannel?) {
-                Toast.makeText(
-                    this@MainActivity,
-                    epgChannel?.name + " clicked",
-                    Toast.LENGTH_SHORT
-                ).show()
+            override fun onChannelClicked(
+                channelPosition: Int, 
+                epgChannel: EPGChannel?) {
+                
             }
-
+    
             override fun onEventClicked(
                 channelPosition: Int,
                 programPosition: Int,
-                epgEvent: EPGEvent?
-            ) {
-                Toast.makeText(
-                    this@MainActivity,
-                    epgEvent?.title + " clicked",
-                    Toast.LENGTH_SHORT
-                ).show()
+                epgEvent: EPGEvent?) {
+               
             }
 
             override fun onResetButtonClicked() {
-                epg.recalculateAndRedraw(true)
+               
             }
-
-
         })
 ```
 ... and data to be shown.
