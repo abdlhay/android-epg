@@ -1,5 +1,3 @@
-# NOTE:
-
 ## Project Background
 
 This project is a fork of the [original repository](https://github.com/korre/android-tv-epg)
@@ -14,7 +12,7 @@ In this fork, the following improvements have been made:
 
 # Electronic Program Guide for Android
 
-![Click for video](\TVepg\epg-recording.mp4)
+![Click for video](https://github.com/abdlhay/android-tv-epg/blob/master/epg-recording.mp4)
 
 This is a "classic" TV EPG which works on tablets and phones and allows you to scroll in all directions (horizontal, vertical and diagonal).
 Example project is located in repo but in short you need to add the EPG to your xml or by code:
